@@ -1,0 +1,311 @@
+/* body,html{
+    background-color: #0A0A05;
+    z-index:-10001;
+} */
+@import url('https://fonts.googleapis.com/css?family=Saira&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+.newhome_body{
+    /* background-color: #0A0A05;
+    color: #fff; */
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+section#counter-stats {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.stats {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin:"auto";
+  font-family: 'Montserrat', sans-serif;
+}
+.column-height{
+    margin-top: 15vh;
+}
+.stats .fa {
+  color: #008080;
+  font-size: 60px;
+}
+.newhome_class{
+
+height:3300px;
+}
+
+.highlight{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:10%;
+
+
+}
+.home_head{
+    margin-top:5%;
+}
+
+.highlight-image{
+    width:100%;
+    margin:auto !important;
+
+}
+
+.home_font{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Saira', cursive;
+    font-weight: 500 !important;
+  
+    letter-spacing: 2px;
+    background: -webkit-linear-gradient(white, #38495a);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.home_font1{
+    font-size: 12px;
+    text-align: center;
+    font-family: "lato", sans-serif;
+    font-weight: 500 !important;
+  
+    letter-spacing: 6px;
+    background: -webkit-linear-gradient(white, #38495a);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.home_font2{
+    font-size: 50px;
+    text-align: center;
+    font-family: "lato", sans-serif;
+    font-weight: 500 !important;
+  margin-bottom: 5%;
+    letter-spacing: 2px;
+    background: -webkit-linear-gradient(white, #38495a);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}.highlight-main{
+    margin-top: 5%;
+}
+@media screen and (max-width: 767px) {
+    .home_font{
+        font-size: 35px;
+    }
+    .home_font1{
+        font-size: 9px;
+    }
+    .home_font2{
+        font-size: 30px;
+    }.column-height{
+        margin-top: 5vh;
+    }
+}
+/* .about_section{
+    height: 800px;
+    width: 100vw;
+    margin-top: 5%;
+    background-color: white;
+}
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+.about_section p{
+    font-size: 22px;
+    text-align: justify;
+    /* text-align: center; */
+    /* font-weight: 500;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+.fa{
+    color: black !important;
+    font-size: 36px;
+ 
+}
+
+.about_head{
+    color:black;
+    font-size: 46px;
+    text-align: center;
+    padding-top:7%;
+}
+
+.inner_container{
+    margin:5% 20%;
+}
+.about_button{
+    border:2px solid black;
+    border-radius:4px;
+    padding: 10px;
+    text-align: center;
+}
+.about_button_h2{
+    color: black;
+    font-size: 40px;
+    letter-spacing: 0.1px !important;
+    text-align: center;
+
+}
+.about_button_h3{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+.about_description{
+    width:70%;
+    padding-top:7%;
+    margin:auto;
+}
+@media only screen and (max-width: 1307px) {
+    .about_head{
+        font-size: 36px;
+    }
+    .about_section p{
+        font-size: 18px;
+    }
+    .fa{
+        font-size:28px;
+    }
+    .about_button_h2{
+        font-size: 28px;
+    }
+    .about_button_h3{
+        font-size: 15px;
+    }
+}  
+@media only screen and (max-width: 767px) {
+    .about_head{
+        font-size: 26px;
+    }
+    .about_section p{
+        font-size: 12px;
+    }
+    .fa{
+        font-size:20px;
+    }
+    .about_button_h2{
+        font-size: 18px;
+    }
+    .about_button_h3{
+        font-size: 9px;
+    }
+}    */ */
+.about_section{
+    height: 800px;
+    width: 100vw;
+    margin-top: 5%;
+    background-color: #0A0A05;
+    color:white;
+}
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+.about_section p{
+    font-size: 22px;
+    text-align: justify;
+    /* text-align: center; */
+    font-weight: 500;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.fa{
+    color: white !important;
+    font-size: 36px;
+ 
+}
+
+.about_head{
+    color:white;
+    font-size: 46px;
+    text-align: center;
+    padding-top:7%;
+}
+
+.inner_container{
+    margin:5% 20%;
+}
+.about_button{
+    border:2px solid white;
+    border-radius:4px;
+    padding: 10px;
+    text-align: center;
+}
+.about_button_h2{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 0.1px !important;
+    text-align: center;
+
+}
+.about_button_h3{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin:0 auto;
+    
+}
+
+.about_description{
+    width:70%;
+    padding-top:7%;
+    margin:auto;
+}
+@media only screen and (max-width: 1307px) {
+    .about_head{
+        font-size: 36px;
+    }
+    .about_section p{
+        font-size: 18px;
+    }
+    .fa{
+        font-size:28px;
+    }
+    .about_button_h2{
+        font-size: 25px;
+    }
+    .about_button_h3{
+        font-size: 12px;
+    }
+}  
+@media only screen and (max-width: 767px) {
+    .about_head{
+        font-size: 26px;
+    }
+    .about_section p{
+        font-size: 12px;
+    }
+    .fa{
+        font-size:20px;
+    }
+    .about_button_h2{
+        font-size: 18px;
+    }
+    .about_button_h3{
+        font-size: 9px;
+    }.inner_container{
+        margin:5% 10%;
+    }.about_description{
+        width:30%;
+        padding-top:7%;
+        margin:auto;
+    }
+}   
+@media only screen and (max-width: 507px) {
+    .about_description{
+        width:40%;
+        padding-top:7%;
+        margin:auto;
+    }.home_head{
+        margin-top:18%;
+    }
+}
